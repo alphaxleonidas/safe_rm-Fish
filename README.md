@@ -13,6 +13,7 @@ If output: /bin/fish , proceed with:
 ```
 cd ~
 git clone https://github.com/alphaxleonidas/safe_rm-Fish/
+mkdir -p ~/.config/fish
 cp -rv safe_rm-Fish/config.fish ~/.config/fish/
 rm -rv safe_rm-Fish
 source ~/.config/fish/config.fish
